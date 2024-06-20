@@ -1,0 +1,62 @@
+main {
+    max-width: 840px;
+}
+
+aside{
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+aside img{
+    width: 200px;
+    height: auto;
+}
+
+div{
+    box-sizing: border-box;
+
+}
+
+p{
+padding: 0;
+}
+
+footer{
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
+header a{
+    margin-left: 5px;
+    padding-left: 3px;
+
+}
+header{
+    border-bottom: solid 1px;
+    border-color: #000;
+    background-color: #eee;
+}
+
+h1, h2, p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.profilepic{
+    margin: 1rem;
+}
+
+main p{
+    font-size: 1rem;
+    width: 150px;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+}
