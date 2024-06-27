@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 main {
     max-width: 840px;
 }
@@ -70,4 +76,47 @@ nav{
 
 h1 {
     color: steelblue;
+    padding-left: 0.5em;
+}
+
+/* Class Selectors */
+
+.box{
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+aside{
+    width: 30em;
+    text-align: center;
+    position: relative;
+}
+
+main img{
+    float: right;
+}
+
+aside h2{
+    position: absolute;
+    top: 20px;
+    left: 180px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.presentation {
+    display: flex;
+    align
+}
+
+.temple-list {
+    width: 32rem;
+}
+
+.temple-list ul{
+    float:none;
+    padding-left: 30px;
 }
