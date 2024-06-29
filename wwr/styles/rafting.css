@@ -1,0 +1,46 @@
+:root {
+
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: center;
+
+}
+
+.hero-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    background-color: rgba(201, 76, 76, 0.3);
+    margin-left: 550px;
+    top: 200px;
+}
+
+.hero article {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(201, 76, 76, 0.3);
+    margin: 20px;
+    padding: 10px;
+    height: 20%;
+    margin-top: 500px;
+}
+
+.hero article img {
+    width: 20%;
+    height: auto;
+}
+
+.hero article p {
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
