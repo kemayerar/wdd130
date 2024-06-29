@@ -40,3 +40,8 @@
     color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.example{
+    width: 20%;
+    height: 300px;
+}
