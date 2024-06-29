@@ -55,13 +55,13 @@
 
 p, a{
     font-family: "montserrat", sans-serif;
-    font-size: 40px;
+    font-size: 20px;
     text-decoration: none;
     color: var(--nav-color);
 }
 
 h1, h2{
     font-family: "merriweather", serif;
-    font-size: 60px;
+    font-size: 50px;
     color: var(--tittle-color);
 }
