@@ -150,6 +150,17 @@ h2 {
 .team-cards img {
   width: auto;
 }
+
+button {
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border-radius: 20px;
+  border-style: none;
+}
+button:hover {
+  background-color: #386641;
+}
 /* Footer */
 
 footer {
