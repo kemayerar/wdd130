@@ -77,7 +77,7 @@ header img {
 }
 
 p,
-a {
+a, label {
   font-family: "montserrat", sans-serif;
   font-size: 20px;
   text-decoration: none;
@@ -136,6 +136,20 @@ h2 {
   grid-row: 2;
 }
 
+.contact {
+  margin-left: 20px;
+}
+
+.team-div {
+  text-align: start;
+}
+.team-cards {
+  display: flex;
+  flex-direction: row;
+}
+.team-cards img {
+  width: auto;
+}
 /* Footer */
 
 footer {
