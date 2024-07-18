@@ -77,7 +77,7 @@ header img {
 }
 
 p,
-a, label {
+a, label, td {
   font-family: "montserrat", sans-serif;
   font-size: 20px;
   text-decoration: none;
@@ -152,14 +152,52 @@ h2 {
 }
 
 button {
-  padding: 10px;
+  padding: 20px;
   background-color: green;
   color: white;
   border-radius: 20px;
   border-style: none;
+  cursor: pointer;
+  font-size: larger;
 }
 button:hover {
   background-color: #386641;
+}
+
+/* Trips */
+.trips {
+  padding: 10px 20px;
+}
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.trips-table {
+  padding: 10px 150px;
+}
+table {
+  width: auto;
+}
+table, th, td {
+  border:1px solid black;
+}
+
+td {
+  text-align: center;
+
+}
+.trip-img {
+  width: 240px;
+  height: auto;
+}
+
+th {
+  font-family: "montserrat", sans-serif;
+  font-size: 40px;
+  text-decoration: none;
+  color: var(--tittle-color);
 }
 /* Footer */
 
