@@ -77,7 +77,9 @@ header img {
 }
 
 p,
-a, label, td {
+a,
+label,
+td {
   font-family: "montserrat", sans-serif;
   font-size: 20px;
   text-decoration: none;
@@ -180,13 +182,14 @@ button:hover {
 table {
   width: auto;
 }
-table, th, td {
-  border:1px solid black;
+table,
+th,
+td {
+  border: 1px solid black;
 }
 
 td {
   text-align: center;
-
 }
 .trip-img {
   width: 240px;
@@ -198,6 +201,70 @@ th {
   font-size: 40px;
   text-decoration: none;
   color: var(--tittle-color);
+}
+
+/* index */
+
+h3 {
+  font-family: "montserrat", sans-serif;
+  font-size: 40px;
+  text-decoration: none;
+  color: var(--tittle-color);
+}
+.newsletter {
+  padding: 20px 100px;
+  background-image: url("../images/colorado-river.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.newsletter-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  opacity: 1;
+  color: white;
+}
+
+.newsletter-message h3, .newsletter-message label {
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+.index-info {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.our-purpose {
+  margin: 0 10px;
+  padding: 20px 0;
+}
+.mission {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+.vision {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.call-to-action {
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+  padding: 0 20px;
+}
+.mission img,
+.vision img {
+  width: 320px;
+}
+
+.call-to-action {
+  background-color: beige;
+}
+
+.call-to-action p {
+  font-size: 80px;
 }
 /* Footer */
 
